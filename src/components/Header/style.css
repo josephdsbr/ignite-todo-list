@@ -1,0 +1,48 @@
+.header {
+    background: #0D0D0D;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.todo-label {
+    position: absolute;
+    bottom: -1.75rem;
+    height: 3.5rem;
+    width: 50%;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.todo-label > input {
+    height: 100%;
+    width: 90%;
+    outline: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #808080;
+    font-size: 1rem;
+    border: 1px solid #0D0D0D;
+    background: #262626;
+}
+
+.todo-label > button {
+    background-color: #3584b1;
+    border-radius: 0.5rem;
+    height: 100%;
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    outline: 0;
+    color: #F2F2F2;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}

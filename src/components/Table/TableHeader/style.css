@@ -1,0 +1,18 @@
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-info {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.header-info > span {
+    color: #4EA8DE;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.header-info-done {}

@@ -1,0 +1,10 @@
+.table-content-wrapper {
+    border-top: 1px solid #333333;
+    border-radius: .5rem;
+    padding: 4rem 0;
+}
+
+.table-content-wrapper--no-empty {
+    padding: 0;
+    border-top: 0;
+}

@@ -1,0 +1,36 @@
+.item, .item-done {
+    width: 100%;
+    background-color: #333333;
+    /* #262626 */
+    min-height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #262626;
+    border-radius: 8px;
+}
+
+.item > span,
+.item-done > span {
+    justify-self: flex-start;
+    width: 90%;
+    color: #F2F2F2;
+    font-size: 0.875rem;
+}
+
+.item > button,
+.item-done > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+}
+
+.item-done > span {
+    text-decoration: line-through;
+    color: #808080
+}

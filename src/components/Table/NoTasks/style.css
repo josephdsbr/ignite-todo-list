@@ -1,0 +1,20 @@
+.no-tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.no-tasks-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-tasks-content > span {
+    color: #808080;
+    font-size: 1rem;
+}
+
+.no-tasks-content > span:first-child {
+    font-weight: 700;
+}
